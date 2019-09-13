@@ -1,0 +1,121 @@
+basler_params:
+  -
+    name: AcquisitionFrameRate
+    type: float
+    value: 4.0
+  -
+    name: ExposureTime
+    type: float
+    value: 2000.0
+  -
+    name: AcquisitionMode
+    type: enum
+    value: 'Continuous'
+  # -
+  #   name: OverlapMode
+  #   type: enum
+  #   value: 'Off'
+  -
+    name: PixelFormat
+    type: enum
+    value: 'Mono8'
+  -
+    name: ExposureAuto
+    type: enum
+    value: 'Off'
+  -
+    name: GainAuto
+    type: enum
+    value: 'Once'
+  -
+    name: LightSourcePreset
+    type: enum
+    value: 'Off' # Off, Daylight5000K,Daylight6500K,Tungsten2800K
+  -
+    name: BalanceWhiteAuto
+    type: enum
+    value: 'Off'
+  -
+    name: BalanceRatioSelector
+    type: enum
+    value: 'Red'
+  -
+    name: BalanceRatio
+    type: float
+    value: 1.0
+  # -
+  #   name: Gain
+  #   type: float
+  #   value: 1.0
+  -
+    name: TriggerMode
+    type: enum
+    value: 'Off'
+  -
+    name: LineSelector
+    type: enum
+    value: 'Line1'
+  # -
+  #   name: LineSource
+  #   type: enum
+  #   value: 'Off'
+  -
+    name: LineMode
+    type: enum
+    value: 'Input'
+  -
+    name: Width
+    type: int
+    value: 1980 #max 2064
+  -
+    name: Height
+    type: int
+    value: 1536 #max 1544
+  -
+    name: OffsetX
+    type: int
+    value: 84 #520
+  -
+    name: OffsetY
+    type: int
+    value: 0 #260
+  -
+    name: BlackLevel
+    type: float
+    value: 0.0
+  -
+    name: Gamma
+    type: float
+    value: 0.75 
+  # -
+  #   name: AutoFunctionROISelector
+  #   type: enum
+  #   value: 'ROI1'
+  # -
+  #   name: AutoFunctionROIHeight
+  #   type: int
+  #   value: 1024
+  # -
+  #   name: AutoFunctionROIWidth
+  #   type: int
+  #   value: 1024
+  # -
+  #   name: AutoFunctionROIOffsetX
+  #   type: int
+  #   value: 0
+  # -
+  #   name: AutoFunctionROIOffsetY
+  #   type: int
+  #   value: 0
+  # -
+  #   name: AutoFunctionROIUseWhiteBalance
+  #   type: boolean
+  #   value: False
+  # -
+  #   name: AutoFunctionROIUseBrightness
+  #   type: boolean
+  #   value: False
+  # -
+  #   name: AutoFunctionROIUseTonalRange
+  #   type: boolean
+  #   value: False  
