@@ -2,10 +2,10 @@
 # GenApi persistence file (version 3.1.0)
 # Device = Basler::UsbCameraParams -- Basler USB3Vision camera interface -- Device version = 1.0.0 -- Product GUID = 5a809e15-f447-480f-a21f-0fb7256b8400 -- Product version GUID = 474E258E-90C1-4FB5-8E66-315B7CAD7796
 #Light condition adjustment
-AutoTargetBrightness	0.19608
-Gamma	1
+AutoTargetBrightness	0.01
+Gamma	1.00000
+AcquisitionFrameRate	1.00000
 LightSourcePreset	Daylight6500K
-#
 ExposureAuto	Continuous
 BalanceWhiteAuto	Continuous
 GainAuto	Continuous
@@ -19,7 +19,6 @@ ReverseX	0
 ReverseY	0
 PixelFormat	BGR8
 TestImageSelector	Off
-BlackLevelSelector	All
 BlackLevel	0.00000
 BlackLevelSelector	All
 DigitalShift	0
@@ -93,7 +92,6 @@ TriggerActivation	RisingEdge
 TriggerSelector	FrameStart
 TriggerDelay	0
 AcquisitionFrameRateEnable	1
-AcquisitionFrameRate	5.00000
 DeviceLinkSelector	0
 DeviceLinkThroughputLimitMode	On
 DeviceLinkSelector	0
